@@ -17,11 +17,25 @@ aside{
 .bt{
     width: 25%;
     float: left;
-    margin-top: 20px;
+    margin-top: -5px;
+}
+.b-menu{
+    margin-top: 10px;
+    background: #162135;
+    border: none;
+    color: white;
+}
+.boton{
+    border-radius: 10px;
 }
 
 .chat{
-    height: 94%;
+    height: 85%;
+}
+.charla li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none; 
 }
 
 .contenedor{
@@ -32,19 +46,30 @@ aside{
 }
 
 .der{
-    width: 25%;
     float: right;
-    margin-top: 0px;
+    margin-top: -29px;
+    margin-right: 20px;
 }
 
+.d-2{
+    float: right;
+    margin-top: 12px;
+    margin-right: 20px;
+}
 .float{
     float: left;
     margin: 10px;
 }
+.float2{
+    float: left;
+}
 
 .gris{
     background: #f2f2f2;
-    height: 40px;
+    height: 42px;
+}
+#imText{
+    width: 80%;
 }
 
 .icon{
@@ -54,7 +79,39 @@ aside{
     margin: 5px;
 }
 
+.ic1{
+    font-size: 12px;
+}
+
+.input{
+    margin-left: 20%;
+    margin-bottom: 0px;
+}
+
+.i-pik{
+    border-radius: 15px;
+    height: 30px;
+    width:30px;
+    
+}
+
+.imgP{
+    margin: 3px 10px;
+}
+
+.i-final{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.iChat{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
 .info{
+    color: white;
     width: 25%;
     height: 600px;
     background:#162135;
@@ -62,9 +119,20 @@ aside{
     box-sizing: border-box;
 }
 
+.li{
+    margin: 5px;
+}
+.menu{
+    font-size: 40px;
+}
+
+.name{
+    margin-top:5px;
+    margin-bottom: 0px;
+}
 .nav{
     background: #49a9ea;
-    height: 122px;
+    height: 50px;
     padding: 15px;
     box-sizing: border-box;
 }
@@ -77,6 +145,11 @@ aside{
     margin-bottom: -12px;
 }
 
+.perfiles{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
 .text-center{
     width: 40%;
     margin: 0 auto;
@@ -89,5 +162,6 @@ aside{
         height: 222px;
         padding: 15px;
         box-sizing: border-box;
+        width: 800px;
     }
 }

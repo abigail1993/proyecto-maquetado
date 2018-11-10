@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+
 </head>
 <body>
     <div class="contenedor">
-        <nav class="nav">
+      <nav class="nav">
             <section class="bt">
               <button class="btn blue">sdfgfdsdfg</button>
               <button class="btn blue">Ipsum</button>
@@ -21,41 +22,98 @@
             
 
             <section class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing</section>
-          <section class="der">
+          <div class="der">
             <a class="icon"><i class="fas fa-space-shuttle"></i></a>
             <a class="icon"><i class="fas fa-trophy"></i></a>
             <a class="icon"><i class="fas fa-users"></i></a>
             <a><img id="perfil" src="images/perfil.png" alt=""> </a>
-          </section >
-        </nav>
+          </div >
+      </nav>
+      <div>  
         <section class="info">
-            
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, culpa. Aliquam officiis quae ex ipsa, dicta reprehenderit eius animi vero vel nam deserunt, inventore itaque rem ipsum eos porro? Similique.
+          <img id="imText" src="images/text.png" alt="">
+          <button class="b-menu"><i class="fas fa-bars menu"></i></button>
+          <hr>
+          <button class="boton">              
+            <span class="ic1"><i class="fas fa-circle" style="color:green;"></i><i class="fas fa-caret-down"></i></span>
+          </button>
+          <button class="boton">
+            <span class="ic1"><i class="fas fa-home"></i>Trabajando Remoto<i class="fas fa-caret-down"></i> </span>
+          </button>
+          <hr>
+          <input type="text" placeholder="Buscar personas y canales">
+          <button type="search"> <i class="fas fa-search"></i></button>
+          <hr>
+          <h5>Favoritos</h5>
+          <ul>
+            <li><img class="perfiles" src="images/perfil.png" alt=""> Bender (tu)</li>
+            <li><img class="perfiles" src="images/pikle.png" alt=""> Pickle Rick</li>
+          </ul>
+          <hr>
+          <h5>Recientes</h5>
+          <ul>
+            <li><img class="perfiles" src="images/perfil.png" alt=""> Bender (tu)</li>
+            <li><img class="perfiles" src="images/pikle.png" alt=""> Pickle Rick</li>
+            <li><img class="perfiles" src="images/perfil.png" alt=""> Bender (tu)</li>
+            <li><img class="perfiles" src="images/pikle.png" alt=""> Pickle Rick</li>
+          </ul>
+          <hr>
+          <h5>Persona</h5>
+          <ul>
+            <li><img class="perfiles" src="images/perfil.png" alt=""> Bender (tu)</li>
+            <li><img class="perfiles" src="images/pikle.png" alt=""> Pickle Rick</li>
+          </ul>
         </section>
 
         <aside>
           <div class="gris">
-            <div class="float">imagen</div>
-            <div class="float">nombre</div>
-            <div class="float"><input type="text"></div>
-            <a>chat</a>
-            <a>archivos</a>
-            <a>links</a>
+            <div class="float imgP"><img class="i-pik" src="images/pikle.png" alt=""></div>
+            <div class="float2">
+              <h5 class="name">Pickle Rick</h5>
+              <span class="ic1"><i class="fas fa-star"></i></span>
+              <span class="ic1"><i class="fas fa-circle" style="color: green;"></i>Online</span>
+              <span class="ic1"><i class="fas fa-home"></i>Trabajando Remoto</span>
+            </div>
+            <div class="float input">
+              <input type="text" placeholder="Buscar un mensaje">
+              <button type="search"> <i class="fas fa-search"></i></button>
+            </div>
+            <div class="d-2" >
+              <a class="chat li"><i class="fas fa-comment"></i> Chat</a>
+              <a class="arc li"><i class="fas fa-file"></i> Archivos</a>
+              <a class="link li"><i class="fas fa-link"></i> Links</a>
+            </div>
+            
           </div>
           <div class="chat">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quaerat ipsam excepturi aliquid nesciunt sequi officiis iure laudantium, dolore neque deleniti eum officia cupiditate aperiam, assumenda obcaecati repellendus suscipit nemo.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, dicta aut quam possimus, ratione perspiciatis voluptatibus voluptates explicabo maiores culpa, harum qui reprehenderit ad esse labore aperiam optio blanditiis quo?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, aut ipsa dolorum, qui repellendus quibusdam ratione vel officia, magnam dolores itaque libero voluptatibus nisi sunt aperiam? Dignissimos possimus temporibus ea.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore temporibus sint ipsam perspiciatis iste? Sapiente, voluptate quo quod placeat cum cupiditate quia quasi ea eum molestias voluptatem ullam illo dolorum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facere placeat fuga nam blanditiis voluptatibus, adipisci ut molestias porro cumque magnam voluptate iure commodi repellendus distinctio, aut accusamus architecto alias.
-    
+            <div id="chat-todos" style="border: 1px solid;">
+              <ul class="charla">
+                <li><a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum eos deserunt recusandae laborum </a></li>
+                <li><a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum eos deserunt recusandae laborum </a></li>
+                <li><a href="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum eos deserunt recusandae laborum </a></li>
+              </ul>
+            </div>    
           </div>
           <div class="gris">
-            dfghjhgfdsdfghjngfdsa 
+            <form id="formulario">
+                <img class="iChat" src="images/perfil.png" alt="">
+                <input type="text" id="mensaje" placeholder="Escribe un comentario" size="100">
+                <!--<textarea name="" id="mensaje" cols="100" rows="2"></textarea>-->
+                
+                <div class="i-final">
+                  <a href=""><i class="fas fa-paperclip"></i></a>
+                  <a href=""><i class="far fa-smile"></i></a>
+                  <input type="button" id="enviar" value="enviar">
+                 <!-- <button type="submit"> <i class="fas fa-location-arrow"></i> </button>-->
+                </div>
+            </form>
+            
           </div>
          
         </aside>
+      </div>
     </div>
+    <script src="js/chat.js"></script>
     
 </body>
 </html>
